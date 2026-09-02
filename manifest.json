@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "YTF - YouTube Friends",
+  "version": "1.0.0",
+  "description": "Seamless YouTube Social — Watch together, chat, and sync videos with friends.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyn+jZfVdps1EB462TBNg/HZtQfRqlpanU2t0slB9qZ+78Q/K8D7UiDNoevQUxvF49bOr6oWK3UzAE5vlIn1sNiFTocK2XESGLb4tKzVchEsyppBomLUw3YKdhMFPPJ4QDA4rfq6YgNcZYSxhPqEyZOQbDMMsNLGuRYn3j4rNAFWU3Jw9Jlzx+4G9uA4r7MtLsbtXqvF+T9ciMobN47fE5CRjrp6dNDw2dSdrXs0yBHyDugBa3awZ99YlKPVgn+BR7GiYSdTrirV8K7hh03M9hoLmUd/LjStePgK7b3UHgvWSpDS6cTZp2DqoscJ9yLT1hw3+LAg/f119jWByipO29wIDAQAB",
+
+  "permissions": [
+    "identity",
+    "storage",
+    "alarms",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "https://hpserverdebian.tail4eb463.ts.net/*",
+    "https://discord.com/*",
+    "https://discordapp.com/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["config.js", "content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*"],
+      "matches": ["*://*.youtube.com/*"]
+    }
+  ],
+
+  "action": {
+    "default_title": "Toggle YTF Sidebar"
+  }
+}
