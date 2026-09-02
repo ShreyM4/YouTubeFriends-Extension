@@ -1,8 +1,6 @@
 
 # YTF - YouTube Friends - Watch Together & Chat Extension
 
-![YTF Logo](/placeholder/for/logo.png)
-
 YTF is a powerful browser extension that transforms your YouTube experience into a social platform. It allows you to watch YouTube videos in perfect sync with your friends, chat in real-time, share reactions with emojis, and more! 
 
 ## ✨ Features
@@ -59,6 +57,11 @@ We turned an old laptop into a fully functional, publicly accessible server!
 ---
 
 ## 📸 Screenshots & Demos
+
+### 🎥 Full Demo Video
+<video src="https://raw.githubusercontent.com/ShreyM4/YouTubeFriends-Extension/main/Ytf%20Demo(1).mp4" width="700" controls></video>
+ 
+*Upload your .mp4 via the GitHub web editor (drag & drop into README.md), then replace the `src` above with the generated `github.com/user-attachments/assets/...` link.*
 
 ### Login & Authentication
 ![Discord Login Placeholder](/placeholder/for/login.png)
