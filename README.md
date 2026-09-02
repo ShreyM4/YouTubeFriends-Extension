@@ -59,7 +59,11 @@ We turned an old laptop into a fully functional, publicly accessible server!
 ## 📸 Screenshots & Demos
 
 ### 🎥 Full Demo Video
-<video src="https://raw.githubusercontent.com/ShreyM4/YouTubeFriends-Extension/main/Ytf%20Demo(1).mp4" width="700" controls></video>
+
+
+https://github.com/user-attachments/assets/08b4cadd-aa10-45a6-aa1b-b9f81d0512ec
+
+
  
 ### Login & Authentication
 ![Discord Login Placeholder](/placeholder/for/login.png)
